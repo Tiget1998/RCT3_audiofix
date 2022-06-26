@@ -1,5 +1,5 @@
 # RCT3_audiofix
-Script that fixes the crackling audio from Roller Coaster Tycoon 3 on Linux. The music is distorted due to the poor support for ".wma" files within proton. This script will convert these ".wma" files to regular ".mp3" files, but leaves the extension as ".wma" to prevent the game from malfunctioning.
+Script that fixes the crackling audio from Roller Coaster Tycoon 3 on Linux. The music is distorted due to the poor support for ".wma" files within proton/wine. This script will convert these ".wma" files to regular ".mp3" files, but leaves the extension as ".wma" to prevent the game from malfunctioning.
 
 
 # Requirements
@@ -31,7 +31,7 @@ Third clone the repository, open a terminal and type the following:
 ```
 cd ~ && git clone https://github.com/Tiget1998/RCT3_audiofix.git
 ```
-Find your steamapps folder where RCT3 is located. Usually this is located in:
+Find your steamapps/EpicGames folder where RCT3 is located. Usually this is located in(Steam is taken as example here):
 ```
 /home/user/.steam/steam/steamapps/common/
 ```
