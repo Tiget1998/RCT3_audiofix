@@ -10,18 +10,15 @@ def convert(file):
 
     Parameters
     ----------
-    file : TYPE
-        DESCRIPTION.
-    audformat : TYPE
-        DESCRIPTION.
-
+    file : String
+        String containing the path to the file.
     Returns
     -------
     None.
 
     """
-    audio = AudioSegment.from_file(file)
-    name = file.split("/")[-1]
+    audio       = AudioSegment.from_file(file)
+    name        = file.split("/")[-1]
     
     audio.export(directory+"/"+"Music/"+name, format="mp3")
     
