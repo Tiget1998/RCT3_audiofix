@@ -5,7 +5,7 @@ Script that fixes the crackling audio from Roller Coaster Tycoon 3 on Linux. The
 # Requirements
 - ffmpeg
 - [pydub](https://github.com/jiaaro/pydub)
-- For steam users: I recommend to run with proton>7.0.3
+- For steam users: I recommend to run with proton>=7.0.3
 
 # Instructions
 First install ffmpeg using your distro's package manager:
